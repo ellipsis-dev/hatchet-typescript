@@ -1,10 +1,11 @@
+import sleep from '@hatchet/util/sleep';
 import Hatchet from '../sdk';
-import { Workflow, CreateStep } from '../workflow';
-import sleep from '../utils/sleep';
+import { Workflow } from '../workflow';
 
 // ❓ timeoutsExample
 const myWorkflow: Workflow = {
   id: 'my-timeout-workflow',
+  description: 'test',
   scheduleTimeout: '2m',
   steps: [
     {
