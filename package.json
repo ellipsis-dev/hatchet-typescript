@@ -64,7 +64,8 @@
     "example:retries-with-backoff": "npm run exec -- ./src/examples/retries-with-backoff.ts",
     "example:simple-worker": "npm run exec -- ./src/examples/simple-worker.ts",
     "example:sticky-worker": "npm run exec -- ./src/examples/sticky-worker.ts",
-    "example:sticky-worker-with-check": "npm run exec -- ./src/examples/sticky-worker-with-check.ts"
+    "example:sticky-worker-with-check": "npm run exec -- ./src/examples/sticky-worker-with-check.ts",
+    "streamExample": "ts-node src/examples/ts/streamExample.ts"
   },
   "keywords": [],
   "author": "",
