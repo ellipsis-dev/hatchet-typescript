@@ -47,6 +47,7 @@
     "example:sticky-trigger": "npm run exec -- ./src/examples/sticky-trigger.ts",
     "example:sticky-worker": "npm run exec -- ./src/examples/sticky-worker.ts",
     "example:sticky-worker-with-check": "npm run exec -- ./src/examples/sticky-worker-with-check.ts",
+    "example:webhooks": "npm run exec -- ./src/examples/webhooks-example.ts",
     "example:stream-by-additional-meta": "npm run exec -- ./src/examples/stream-by-additional-meta.ts",
     "exec": "npx dotenv -- ts-node -r tsconfig-paths/register --project tsconfig.json",
     "generate": "pnpm run '/generate-.*/'",
